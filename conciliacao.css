@@ -1,0 +1,96 @@
+table.grid {
+	border-collapse: collapse;
+}
+
+table.grid td{
+	border:1px solid #000000;
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+tr.normal {
+	background-color: #FFFFFF;
+}
+tr.selecionado {
+	background-color: #FFFFCC;
+}
+tr.conciliado {
+	background-color: #FFCCCC;
+}
+tr.pendente {
+	background-color: #CCCCFF;
+}
+tr.desprocessado {
+	background-color: #FF3300;
+}
+tr.preselecionado {
+	background-color: #FF9900;
+}
+
+td.cabe {
+	border-collapse: collapse;
+	border:1px solid #000000;
+	background-color: #AEAEAE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+td.normalx {
+	border:1px solid #000000;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+td.selecionadox {
+	border-collapse: collapse;
+	border:1px solid #000000;
+	background-color: #FFFFCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+td.conciliadox {
+	border-collapse: collapse;
+	border:1px solid #000000;
+	background-color: #FFCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+td.pendentex {
+	border-collapse: collapse;
+	border:1px solid #000000;
+	background-color: #CCCCFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+td.preselecionadox {
+	border-collapse: collapse;
+	border:1px solid #000000;
+	background-color: #FF9900;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+table.detalhe{
+	border-collapse: collapse;
+}
+
+table.detalhe td {
+	border:1px solid #000000;
+	background-color: #FFFFCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}

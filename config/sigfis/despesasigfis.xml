@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<despesas>
+    <despesa codigo="30000000"	descricao="DESPESAS CORRENTES" />
+    <despesa codigo="31000000"	descricao="PESSOAL E ENCARGOS SOCIAIS" />
+    <despesa codigo="31200000"	descricao="Transferências à União" />
+    <despesa codigo="31220000"	descricao="Execução Orçamentária Delegada à União" />
+    <despesa codigo="31300000"	descricao="Transferências a Estados e ao Distrito Federal" />
+    <despesa codigo="31304100"	descricao="Contribuições" />
+    <despesa codigo="31309900"	descricao="Elemento Genérico - Transferências a Estados e Distrito Federal" />
+    <despesa codigo="31310000"	descricao="Transferências a Estados e ao Distrito Federal - Fundo a Fundo" />
+    <despesa codigo="31320000"	descricao="Execução Orçamentária Delegada a Estados e ao DF" />
+    <despesa codigo="31350000"	descricao="Transferências Fundo a Fundo aos Estados e ao Distrito federal à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012 - restos a pagar cancelados" />
+    <despesa codigo="31360000"	descricao="Transferências Fundo a Fundo aos Estados e ao Distrito federal à conta de recursos de que trata art. 25 da Lei Complementar nº 141, de 2012 -diferença do mínimo não aplicado em exercícios anteriores" />
+    <despesa codigo="31400000"	descricao="Transferências a Municípios" />
+    <despesa codigo="31410000"	descricao="Transferências a Municípios - Fundo a Fundo" />
+    <despesa codigo="31420000"	descricao="Execução Orçamentária Delegada a Municípios" />
+    <despesa codigo="31450000"	descricao="Transferências Fundo a Fundo aos Municípios à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012 - restos a pagar cancelados" />
+    <despesa codigo="31460000"	descricao="Transferências Fundo a Fundo a Municípios à conta de recursos de que trata art. 25 da Lei Complementar nº 141, de 2012 -diferença do mínimo não aplicado em exercícios anteriores" />
+    <despesa codigo="31500000"	descricao="Transferências a Instituições Privadas sem Fins Lucrativos" />
+    <despesa codigo="31600000"	descricao="Transferências a Instituições Privadas com Fins Lucrativos" />
+    <despesa codigo="31670000"	descricao="Execução de Contrato de PPP" />
+    <despesa codigo="31700000"	descricao="Transferências a Instituições Multigovernamentais" />
+    <despesa codigo="31704100"	descricao="Contribuições" />
+    <despesa codigo="31709900"	descricao="Outras Transferências a Instituições Multigovernamentais" />
+    <despesa codigo="31710000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio" />
+    <despesa codigo="31720000"	descricao="Execução Orçamentária Delegada a Consórcios Públicos" />
+    <despesa codigo="31730000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="31740000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="31750000"	descricao="Transferências a Instituições Multigovernamentais à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012 - restos a pagar cancelados" />
+    <despesa codigo="31760000"	descricao="Transferências a Instituições Multigovernamentais à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012 -Diferança do mínimo não aplicado em exercícios anteriores" />
+    <despesa codigo="31900000"	descricao="Aplicações Diretas" />
+    <despesa codigo="31900100"	descricao="Aposentadorias do RPPS, Reserva Remunerada e Reformas dos Militares" />
+    <despesa codigo="31900101"	descricao="Proventos - Pessoal Civil" />
+    <despesa codigo="31900106"	descricao="13 Salario - Pessoal Civil" />
+    <despesa codigo="31900118"	descricao="Licença Premio para Inativo Civil" />
+    <despesa codigo="31900151"	descricao="Adicionais, Vantagens,Gratificações E Outros Complementos de Proventos - Pessoal Civil" />
+    <despesa codigo="31900199"	descricao="Outros Proventos - Pesoal Civil" />
+    <despesa codigo="31900300"	descricao="Pensões do RPPS e do militar" />
+    <despesa codigo="31900301"	descricao="Pensões Civis" />
+    <despesa codigo="31900303"	descricao="13 Salario - Pensões Civis" />
+    <despesa codigo="31900305"	descricao="Pensões Especiais - Pessoal Civil" />
+    <despesa codigo="31900351"	descricao="Adicionais, Vantagens,Gratificações e outros Complementos de Pensões - Pessoal Civil" />
+    <despesa codigo="31900399"	descricao="Outras Pensões - Civis" />
+    <despesa codigo="31900400"	descricao="Contratação por Tempo Determinado" />
+    <despesa codigo="31900401"	descricao="Salário Contrato Temporário" />
+    <despesa codigo="31900410"	descricao="Serviço Extraordinário - Contrato Temporário" />
+    <despesa codigo="31900413"	descricao="13. Salário - Contrato Temporário" />
+    <despesa codigo="31900414"	descricao="Ferias - Abono Constitucional - Contrato Temporário" />
+    <despesa codigo="31900415"	descricao="Obrigações Patronais - Contrato Temporário" />
+    <despesa codigo="31900451"	descricao="Adicionais De Contrato Temporário" />
+    <despesa codigo="31900499"	descricao="Outras Contratações por Tempo Determinado" />
+    <despesa codigo="31900700"	descricao="Contribuição a Entidades Fechadas de Previdência" />
+    <despesa codigo="31901100"	descricao="Vencimentos e Vantagens Fixas - Pessoal Civil" />
+    <despesa codigo="31901101"	descricao="Vencimentos e Vantagens Fixas (exceto Salário Maternidade e Licença Saúde) Pessoal Civil" />
+    <despesa codigo="31901150"	descricao="Salário Maternidade" />
+    <despesa codigo="31901152"	descricao="Licença Saúde" />
+    <despesa codigo="31901300"	descricao="Obrigações Patronais" />
+    <despesa codigo="31901301"	descricao="Contribuição para o FGTS" />
+    <despesa codigo="31901302"	descricao="Contribuição para o Regime Geral de Previdência (INSS)" />
+    <despesa codigo="31901307"	descricao="Contribuição por Tempo Determinado" />
+    <despesa codigo="31901308"	descricao="Contribuição para o Regime Próprio de Previdência (RPPS) - Pessoal Ativo" />
+    <despesa codigo="31901310"	descricao="Contribuição para o Regime Próprio de Previdência (RPPS) - Pessoal Inativo" />
+    <despesa codigo="31901340"	descricao="Encargos de Pessoal Requisitado de Outros Entes" />
+    <despesa codigo="31901399"	descricao="Outros Obrigações Patronais" />
+    <despesa codigo="31901600"	descricao="Outras Despesas Variáveis - Pessoal Civil" />
+    <despesa codigo="31906700"	descricao="Depósitos Compulsórios" />
+    <despesa codigo="31909100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="31909101"	descricao="Precatórios Ativo Civil" />
+    <despesa codigo="31909108"	descricao="Sentenças Judiciais relativas a pessoal e encargos de servidores ativos" />
+    <despesa codigo="31909109"	descricao="Sentenças Judiciais relativas a pessoal e encargos de inativos" />
+    <despesa codigo="31909110"	descricao="Sentenças Judiciais relativas a pessoal e encargos de pensionistas" />
+    <despesa codigo="31909120"	descricao="Depósitos Judiciais" />
+    <despesa codigo="31909123"	descricao="Precatórios Inativo Civil" />
+    <despesa codigo="31909126"	descricao="Sentença Judicial de Pequeno Valor - Ativo Civil" />
+    <despesa codigo="31909136"	descricao="Precatórios - Pensionista Civil" />
+    <despesa codigo="31909197"	descricao="Outros Precatórios Judiciais" />
+    <despesa codigo="31909199"	descricao="Outras Sentenças Judiciais" />
+    <despesa codigo="31909200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="31909201"	descricao="Desp de Exercícios Anteriores relativas a pessoal e encargos de inativos" />
+    <despesa codigo="31909203"	descricao="Desp de Exercícios Anteriores relativas a pessoal e encargos de pensionistas" />
+    <despesa codigo="31909204"	descricao="Desp de Exercícios Anteriores relativas a Contratação por Tempo Determinado" />
+    <despesa codigo="31909211"	descricao="Desp de Exercícios Anteriores relativas a pessoal e encargos de servidores ativos" />
+    <despesa codigo="31909213"	descricao="Desp de Exercícios Anteriores relativas Obrigações Patronais" />
+    <despesa codigo="31909291"	descricao="Desp de Exercícios Anteriores relativas a sentenças judiciais" />
+    <despesa codigo="31909299"	descricao="Outras Despesas de Exercícios Anteriores" />
+    <despesa codigo="31909400"	descricao="Indenizações e Restituições Trabalhistas" />
+    <despesa codigo="31909401"	descricao="Indenizações e Restituições Trabalhistas - Ativos" />
+    <despesa codigo="31909403"	descricao="Indenizações e Restituições Trabalhistas - Inativos" />
+    <despesa codigo="31909413"	descricao="Indenizações e Restituições Trabalhistas - Pensionistas" />
+    <despesa codigo="31909499"	descricao="Outras Indenizações e Restituições Trabalhistas" />
+    <despesa codigo="31909600"	descricao="Ressarcimento de Despesas de Pessoal Requisitado" />
+    <despesa codigo="31910000"	descricao="Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social" />
+    <despesa codigo="31910400"	descricao="Contratação por Tempo Determinado" />
+    <despesa codigo="31911300"	descricao="Obrigações Patronais" />
+    <despesa codigo="31911308"	descricao="Contribuições Previdenciárias - RPPS - Pessoal Ativo - Plano Previdenciário" />
+    <despesa codigo="31911310"	descricao="Contribuições Previdenciárias - RPPS - Inativos e Pensionistas - Plano Previdenciário" />
+    <despesa codigo="31911311"	descricao="Contribuições Previdenciárias - RPPS - Pessoal Ativo - Plano Financeiro" />
+    <despesa codigo="31911312"	descricao="Contribuições Previdenciárias - RPPS - Inativos e Pensionistas - Plano Financeiro" />
+    <despesa codigo="31911320"	descricao="Alíquota Suplementar de Contribuição Previdenciária - Pessoal Ativo - Plano Previdenciário" />
+    <despesa codigo="31911321"	descricao="Alíquota Suplementar de Contribuição Previdenciária - Pessoal Inativo E Pensionista - Plano Previdenciário" />
+    <despesa codigo="31911322"	descricao="Alíquota Suplementar de Contribuição Previdenciária - Pessoal Ativo - Plano Financeiro" />
+    <despesa codigo="31911323"	descricao="Alíquota Suplementar de Contribuição Previdenciária - Pessoal Inativo E Pensionista - Plano Financeiro" />
+    <despesa codigo="31911399"	descricao="Outros Obrigações Patronais" />
+    <despesa codigo="31919100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="31919151"	descricao="Obrigações Patronais de Precatórios" />
+    <despesa codigo="31919152"	descricao="Obrigações Patronais - Sent. Jud. Pequeno Valor" />
+    <despesa codigo="31919153"	descricao="Obrigações Patronais Sentença Judicial - Pessoal Civil" />
+    <despesa codigo="31919199"	descricao="Outras Sentenças Judiciais" />
+    <despesa codigo="31919200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="31919204"	descricao="Contratação por Prazo Determinado" />
+    <despesa codigo="31919205"	descricao="Contribuições Previdenciárias - RPPS - Pessoal Ativo do Plano Previdenciário" />
+    <despesa codigo="31919206"	descricao="Contribuições Previdenciárias - RPPS - Pessoal Inativo e Pensionista do Plano Previdenciário" />
+    <despesa codigo="31919207"	descricao="Contribuições Previdenciárias - RPPS - Pessoal Ativo do Plano Financeiro" />
+    <despesa codigo="31919208"	descricao="Contribuições Previdenciárias - RPPS - Pessoal Inativo e Pensionista do Plano Financeiro" />
+    <despesa codigo="31919213"	descricao="Demais Obrigações Patronais" />
+    <despesa codigo="31919299"	descricao="Outras Despesas de Exercícios Anteriores" />
+    <despesa codigo="31919400"	descricao="Indenizações e Restituições Trabalhistas" />
+    <despesa codigo="31919451"	descricao="Indenizações Trabalhistas - Obrig. Patronais" />
+    <despesa codigo="31919498"	descricao="Indenizações por Demissão e com Programas de Incentivos à Demissão Voluntária - Trab. Ativo Civil" />
+    <despesa codigo="31919499"	descricao="Outras Indenizações e Restituições Trabalhistas" />
+    <despesa codigo="31919600"	descricao="Ressarcimento de Despesas de Pessoal Requisitado" />
+    <despesa codigo="31920000"	descricao="Aplicação Direta de Recursos Recebidos de outros Entes" />
+    <despesa codigo="31930000"	descricao="Aplicação Direta decorrente de Operação de Integrantes do OFSS com Consórcio Público do qual o Ente Participe" />
+    <despesa codigo="31940000"	descricao="Aplicação Direta decorrente de Operação de Integrantes do OFSS com Consórcio Público do qual o Ente não Participe" />
+    <despesa codigo="31950000"	descricao="Aplicação Direta à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="31950400"	descricao="Contratação por Tempo Determinado" />
+    <despesa codigo="31950700"	descricao="Contribuição a Entidades Fechadas de Previdência" />
+    <despesa codigo="31951100"	descricao="Vencimentos e Vantagens Fixas - Pessoal Civil" />
+    <despesa codigo="31951300"	descricao="Obrigações Patronais" />
+    <despesa codigo="31951600"	descricao="Outras Despesas Variáveis - Pessoal Civil" />
+    <despesa codigo="31956700"	descricao="Depósitos Compulsórios" />
+    <despesa codigo="31959100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="31959200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="31959400"	descricao="Indenizações e Restituições Trabalhistas" />
+    <despesa codigo="31959600"	descricao="Ressarcimento de Despesas de Pessoal Requisitado" />
+    <despesa codigo="31960000"	descricao="Aplicação Direta à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="31960400"	descricao="Contratação por Tempo Determinado" />
+    <despesa codigo="31960700"	descricao="Contribuição a Entidades Fechadas de Previdência" />
+    <despesa codigo="31961100"	descricao="Vencimentos e Vantagens Fixas - Pessoal Civil" />
+    <despesa codigo="31961300"	descricao="Obrigações Patronais" />
+    <despesa codigo="31961600"	descricao="Outras Despesas Variáveis - Pessoal Civil" />
+    <despesa codigo="31966700"	descricao="Depósitos Compulsórios" />
+    <despesa codigo="31969100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="31969200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="31969201"	descricao="Desp de Exercícios Anteriores relativas a pessoal e encargos de inativos" />
+    <despesa codigo="31969203"	descricao="Desp de Exercícios Anteriores relativas a pessoal e encargos de pensionistas" />
+    <despesa codigo="31969211"	descricao="Desp de Exercícios Anteriores relativas a pessoal e encargos de servidores ativos" />
+    <despesa codigo="31969400"	descricao="Indenizações e Restituições Trabalhistas" />
+    <despesa codigo="31969600"	descricao="Ressarcimento de Despesas de Pessoal Requisitado" />
+    <despesa codigo="32000000"	descricao="JUROS E ENCARGOS DA DÍVIDA" />
+    <despesa codigo="32200000"	descricao="Transferências à União" />
+    <despesa codigo="32220000"	descricao="Execução Orçamentária Delegada à União" />
+    <despesa codigo="32300000"	descricao="Transferência a Estados e ao DF" />
+    <despesa codigo="32310000"	descricao="Transferências a Estados e ao Distrito Federal - Fundo a Fundo" />
+    <despesa codigo="32320000"	descricao="Execução Orçamentária Delegada a Estados e ao DF" />
+    <despesa codigo="32350000"	descricao="Transferências Fundo A Fundo Aos Estados E Ao Distrito Federal À Conta De Recursos De Que Tratam Os §§ 1o E 2o Do Art. 24 Da Lei Complementar No 141, De 2012" />
+    <despesa codigo="32360000"	descricao="Transferências Fundo A Fundo Aos Estados E Ao Distrito Federal À Conta De Recursos De Que Trata O Art. 25 Da Lei Complementar No 141, De 2012" />
+    <despesa codigo="32400000"	descricao="Transferência a Municípios" />
+    <despesa codigo="32410000"	descricao="Transferências a Municípios - Fundo a Fundo" />
+    <despesa codigo="32420000"	descricao="Execução Orçamentária Delegada a Municípios" />
+    <despesa codigo="32450000"	descricao="Transferências Fundo A Fundo Aos Municípios À Conta De Recursos De Que Tratam Os §§ 1o E 2o Do Art. 24 Da Lei Complementar No 141, De 2012" />
+    <despesa codigo="32460000"	descricao="Transferências Fundo A Fundo Aos Municípios À Conta De Recursos De Que Trata O Art. 25 Da Lei Complementar No 141, De 2012" />
+    <despesa codigo="32500000"	descricao="Transferências A Instituições Privadas Sem Fins Lucrativos" />
+    <despesa codigo="32600000"	descricao="Transferências A Instituições Privadas com Fins Lucrativos" />
+    <despesa codigo="32670000"	descricao="Execução de Contrato de PPP" />
+    <despesa codigo="32700000"	descricao="Transf. a Instituicoes Multigovernamentais" />
+    <despesa codigo="32710000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio" />
+    <despesa codigo="32720000"	descricao="Execução Orçamentária Delegada a Consórcios Públicos" />
+    <despesa codigo="32730000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="32740000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="32900000"	descricao="Aplicações Diretas" />
+    <despesa codigo="32902100"	descricao="Juros sobre a Dívida por Contrato" />
+    <despesa codigo="32902200"	descricao="Outros Encargos sobre a Dívida por Contrato" />
+    <despesa codigo="32902300"	descricao="Juros, Deságios e Descontos da Dívida Mobiliária" />
+    <despesa codigo="32902400"	descricao="Outros Encargos sobre a Dívida Mobiliária" />
+    <despesa codigo="32902500"	descricao="Encargos sobre Operações de Crédito por Antecipação da Receita" />
+    <despesa codigo="32909100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="32909200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="32909300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="32910000"	descricao="Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social" />
+    <despesa codigo="32912100"	descricao="Juros sobre a Dívida por Contrato" />
+    <despesa codigo="32912200"	descricao="Outros Encargos sobre a Dívida por Contrato" />
+    <despesa codigo="32919100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="32919200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="32919300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="32930000"	descricao="Aplicação Direta decorrente de Operação de Integrantes do OFSS com Consórcio Público do qual o Ente Participe" />
+    <despesa codigo="32940000"	descricao="Aplicação Direta decorrente de Operação de Integrantes do OFSS com Consórcio Público do qual o Ente não Participe" />
+    <despesa codigo="32950000"	descricao="Aplicação Direta à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="32952100"	descricao="Juros sobre a Dívida por Contrato" />
+    <despesa codigo="32952200"	descricao="Outros Encargos sobre a Dívida por Contrato" />
+    <despesa codigo="32959200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="32960000"	descricao="Aplicação Direta à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="32962100"	descricao="Juros sobre a Dívida por Contrato" />
+    <despesa codigo="32962200"	descricao="Outros Encargos sobre a Dívida por Contrato" />
+    <despesa codigo="32969200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33000000"	descricao="OUTRAS DESPESAS CORRENTES" />
+    <despesa codigo="33200000"	descricao="Transferências à União" />
+    <despesa codigo="33204100"	descricao="Contribuições" />
+    <despesa codigo="33220000"	descricao="Execução Orçamentária Delegada à União" />
+    <despesa codigo="33221400"	descricao="Diárias - Civil" />
+    <despesa codigo="33223000"	descricao="Material de Consumo" />
+    <despesa codigo="33223500"	descricao="Serviços de Consultoria" />
+    <despesa codigo="33223600"	descricao="Outros Serviços de Terceiros - Pessoa Física" />
+    <despesa codigo="33223900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="33300000"	descricao="Transferências a Estados e ao Distrito Federal" />
+    <despesa codigo="33304100"	descricao="Contribuições" />
+    <despesa codigo="33309200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33309300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="33310000"	descricao="Transferências a Estados e ao Distrito Federal - Fundo a Fundo" />
+    <despesa codigo="33314100"	descricao="Contribuições" />
+    <despesa codigo="33319200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33320000"	descricao="Execução Orçamentária Delegada a Estados e ao Distrito Federal" />
+    <despesa codigo="33350000"	descricao="Transferências Fundo a Fundo aos Estados e ao Distrito Federal à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33360000"	descricao="Transferências Fundo a Fundo aos Estados e ao Distrito Federal à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33400000"	descricao="Transferências a Municípios" />
+    <despesa codigo="33404100"	descricao="Contribuições" />
+    <despesa codigo="33409100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="33409200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33410000"	descricao="Transferências a Municípios - Fundo a Fundo" />
+    <despesa codigo="33414100"	descricao="Contribuições" />
+    <despesa codigo="33419200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33420000"	descricao="Execução Orçamentária Delegada a Municípios" />
+    <despesa codigo="33450000"	descricao="Transferências Fundo a Fundo aos Municípios à Conta de Recursos de que tratam os §§ 1º E 2º do Art. 24 da Lei Complementar Nº 141, de 2012." />
+    <despesa codigo="33460000"	descricao="Transferências Fundo a Fundo aos Municípios à Conta de Recursos de que trata o Art. 25 da Lei Complementar Nº 141, de 2012." />
+    <despesa codigo="33500000"	descricao="Transferências a Instituições Privadas sem Fins Lucrativos" />
+    <despesa codigo="33504100"	descricao="Contribuições" />
+    <despesa codigo="33504300"	descricao="Subvenções Sociais" />
+    <despesa codigo="33508500"	descricao="Contrato de Gestão" />
+    <despesa codigo="33509900"	descricao="Demais Transferências" />
+    <despesa codigo="33600000"	descricao="Transferências a Instituições Privadas com Fins Lucrativos" />
+    <despesa codigo="33670000"	descricao="Execução de Contrato de PPP" />
+    <despesa codigo="33700000"	descricao="Transferências a Instituições Multigovernamentais" />
+    <despesa codigo="33710000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio" />
+    <despesa codigo="33720000"	descricao="Execução Orçamentária Delegada a Consórcios Públicos" />
+    <despesa codigo="33730000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33740000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33750000"	descricao="Transferências a Instituições Multigovernamentais à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33760000"	descricao="Transferências a Instituições Multigovernamentais à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33800000"	descricao="Transferências ao Exterior" />
+    <despesa codigo="33900000"	descricao="Aplicações Diretas" />
+    <despesa codigo="33900600"	descricao="Benefício Mensal ao Deficiente e Idoso" />
+    <despesa codigo="33900800"	descricao="Outros Benefícios Assistenciais do servidor e do militar" />
+    <despesa codigo="33900801"	descricao="Auxilio Funeral" />
+    <despesa codigo="33900805"	descricao="Auxilio Natalidade" />
+    <despesa codigo="33900809"	descricao="Auxilio Creche" />
+    <despesa codigo="33900811"	descricao="Auxilio Saúde" />
+    <despesa codigo="33900813"	descricao="Auxilio Familiar no Exterior" />
+    <despesa codigo="33900814"	descricao="Auxilio Deficiente" />
+    <despesa codigo="33900815"	descricao="Auxilio Escola" />
+    <despesa codigo="33900846"	descricao="Auxilio Odontológico" />
+    <despesa codigo="33900847"	descricao="Auxilio Oftalmológico" />
+    <despesa codigo="33900848"	descricao="Auxilio Medicamento" />
+    <despesa codigo="33900853"	descricao="Auxilio Reclusão" />
+    <despesa codigo="33900856"	descricao="Salario Família" />
+    <despesa codigo="33900899"	descricao="Outros Benefícios Assistenciais" />
+    <despesa codigo="33901000"	descricao="Seguro Desemprego e Abono Salarial" />
+    <despesa codigo="33901400"	descricao="Diárias - Civil" />
+    <despesa codigo="33901800"	descricao="Auxílio Financeiro a Estudantes" />
+    <despesa codigo="33901900"	descricao="Auxílio-Fardamento" />
+    <despesa codigo="33902000"	descricao="Auxílio Financeiro a Pesquisadores" />
+    <despesa codigo="33902700"	descricao="Encargos pela Honra de Avais, Garantias, Seguros e Similares" />
+    <despesa codigo="33902800"	descricao="Remuneração de Cotas de Fundos Autárquicos" />
+    <despesa codigo="33902900"	descricao="Distribuição de Resultado de Empresas Estatais Dependentes" />
+    <despesa codigo="33903000"	descricao="Material de Consumo" />
+    <despesa codigo="33903100"	descricao="Premiações Culturais, Artísticas, Científicas, Desportivas e Outras" />
+    <despesa codigo="33903200"	descricao="Material, Bem ou Serviço para Distribuição Gratuita" />
+    <despesa codigo="33903300"	descricao="Passagens e Despesas com Locomoção" />
+    <despesa codigo="33903400"	descricao="Outras Despesas de Pessoal decorrentes de Contratos de Terceirização" />
+    <despesa codigo="33903500"	descricao="Serviços de Consultoria" />
+    <despesa codigo="33903600"	descricao="Outros Serviços de Terceiros - Pessoa Física" />
+    <despesa codigo="33903700"	descricao="Locação de Mão-de-Obra" />
+    <despesa codigo="33903800"	descricao="Arrendamento Mercantil" />
+    <despesa codigo="33903900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="33904000"	descricao="Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica" />
+    <despesa codigo="33904100"	descricao="Contribuições" />
+    <despesa codigo="33904500"	descricao="Subvenções Econômicas" />
+    <despesa codigo="33904600"	descricao="Auxílio-Alimentação" />
+    <despesa codigo="33904700"	descricao="Obrigações Tributárias e Contributivas" />
+    <despesa codigo="33904800"	descricao="Outros Auxílios Financeiros a Pessoas Físicas" />
+    <despesa codigo="33904900"	descricao="Auxílio-Transporte" />
+    <despesa codigo="33906700"	descricao="Depósitos Compulsórios" />
+    <despesa codigo="33908600"	descricao="Compensações a Regimes de Previdência" />
+    <despesa codigo="33909100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="33909200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33909300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="33909500"	descricao="Indenização pela Execução de Trabalhos de Campo" />
+    <despesa codigo="33909600"	descricao="Ressarcimento de Despesas de Pessoal Requisitado" />
+    <despesa codigo="33909800"	descricao="Despesa do Orçamento de Investimento" />
+    <despesa codigo="33910000"	descricao="Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social" />
+    <despesa codigo="33912800"	descricao="Remuneração de Cotas de Fundos Autárquicos" />
+    <despesa codigo="33912900"	descricao="Distribuição de Resultado de Empresas Estatais Dependentes" />
+    <despesa codigo="33913000"	descricao="Material de Consumo" />
+    <despesa codigo="33913100"	descricao="Premiações Cult., Art., Cient., Desp. e Outr." />
+    <despesa codigo="33913200"	descricao="Material, bem ou serviço para distribuição gratuita" />
+    <despesa codigo="33913500"	descricao="Serviços de Consultoria" />
+    <despesa codigo="33913900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="33914000"	descricao="Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica" />
+    <despesa codigo="33914700"	descricao="Obrigações Tributárias e Contributivas" />
+    <despesa codigo="33916200"	descricao="Aquisição de Produtos para Revenda" />
+    <despesa codigo="33919100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="33919200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33919300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="33919600"	descricao="Ressarcimento de Despesas de Pessoal Requisitado" />
+    <despesa codigo="33919700"	descricao="Aporte para Cobertura do Déficit Atuarial do RPPS" />
+    <despesa codigo="33920000"	descricao="Aplicações diretas de Recursos Recebidos de Outros Entes" />
+    <despesa codigo="33921400"	descricao="Diárias - Civil" />
+    <despesa codigo="33921800"	descricao="Auxílio Financeiro a Estudantes" />
+    <despesa codigo="33922000"	descricao="Auxílio Financeiro a Pesquisadores" />
+    <despesa codigo="33923000"	descricao="Material de Consumo" />
+    <despesa codigo="33923200"	descricao="Material, Bem ou Serviço para Distribuição Gratuita" />
+    <despesa codigo="33923300"	descricao="Passagens e Despesas com Locomoção" />
+    <despesa codigo="33923500"	descricao="Serviços de Consultoria" />
+    <despesa codigo="33923600"	descricao="Outros Serviços de Terceiros - Pessoa Física" />
+    <despesa codigo="33923900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="33924000"	descricao="Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica" />
+    <despesa codigo="33929200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="33930000"	descricao="Aplicação Direta Decorrente de Operação de Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social com Consórcio Público do qual o Ente Participe" />
+    <despesa codigo="33933000"	descricao="Material de Consumo" />
+    <despesa codigo="33933200"	descricao="Material, Bem ou Serviço para Distribuição Gratuita" />
+    <despesa codigo="33933900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="33940000"	descricao="Aplicação Direta Decorrente de Operação de Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social com Consórcio Público do qual o Ente Não Participe" />
+    <despesa codigo="33943000"	descricao="Material de Consumo" />
+    <despesa codigo="33943200"	descricao="Material, Bem ou Serviço para Distribuição Gratuita" />
+    <despesa codigo="33943900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="33950000"	descricao="Aplicação Direta à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="33960000"	descricao="Aplicação Direta à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="40000000"	descricao="DESPESAS DE CAPITAL" />
+    <despesa codigo="44000000"	descricao="INVESTIMENTOS" />
+    <despesa codigo="44200000"	descricao="Transferências à União" />
+    <despesa codigo="44204100"	descricao="Contribuições" />
+    <despesa codigo="44204200"	descricao="Auxilios" />
+    <despesa codigo="44220000"	descricao="Execução Orçamentária Delegada à União" />
+    <despesa codigo="44300000"	descricao="Transferências a Estados e ao Distrito Federal" />
+    <despesa codigo="44304100"	descricao="Contribuições" />
+    <despesa codigo="44304200"	descricao="Auxílios" />
+    <despesa codigo="44310000"	descricao="Transferências a Estados e ao Distrito Federal - Fundo a Fundo" />
+    <despesa codigo="44320000"	descricao="Execução Orçamentária Delegada a Estados e ao Distrito Federal" />
+    <despesa codigo="44322000"	descricao="Auxílio Financeiro a Pesquisadores" />
+    <despesa codigo="44325100"	descricao="Obras e Instalações" />
+    <despesa codigo="44325200"	descricao="Equipamentos e Material Permanente" />
+    <despesa codigo="44329200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="44329300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="44350000"	descricao="Transferências Fundo a Fundo aos Estados e ao Distrito Federal à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44360000"	descricao="Transferências Fundo a Fundo aos Estados e ao Distrito Federal à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44400000"	descricao="Transferências a Municípios" />
+    <despesa codigo="44404100"	descricao="Contribuições" />
+    <despesa codigo="44404200"	descricao="Auxílios" />
+    <despesa codigo="44409200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="44410000"	descricao="Transferências a Municípios - Fundo a Fundo" />
+    <despesa codigo="44420000"	descricao="Execução Orçamentária Delegada a Municípios" />
+    <despesa codigo="44450000"	descricao="Transferências Fundo a Fundo aos Municípios à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44460000"	descricao="Transferências Fundo a Fundo aos Municípios à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44500000"	descricao="Transferências a Instituições Privadas sem Fins Lucrativos" />
+    <despesa codigo="44600000"	descricao="Transferências a instituições privadas com fins lucrativos" />
+    <despesa codigo="44670000"	descricao="Exedcução de Contrato de Parceria Público Privada" />
+    <despesa codigo="44700000"	descricao="Transferências a Instituições Multigovernamentais" />
+    <despesa codigo="44710000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio" />
+    <despesa codigo="44720000"	descricao="Execução Orçamentária Delegada a Consórcios Públicos" />
+    <despesa codigo="44730000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44740000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44750000"	descricao="Transferências a Instituições Multigovernamentais à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44760000"	descricao="Transferências a Instituições Multigovernamentais à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44800000"	descricao="Transferências ao Exterior" />
+    <despesa codigo="44900000"	descricao="Aplicações Diretas" />
+    <despesa codigo="44900400"	descricao="Contratação por prazo determinado" />
+    <despesa codigo="44901400"	descricao="Diárias - Civil" />
+    <despesa codigo="44901800"	descricao="Auxílio Financeiro a Estudantes" />
+    <despesa codigo="44902000"	descricao="Auxílio Financeiro a Pesquisadores" />
+    <despesa codigo="44903000"	descricao="Material de Consumo" />
+    <despesa codigo="44903300"	descricao="Passagens e Despesas com Locomoção" />
+    <despesa codigo="44903500"	descricao="Serviços de Consultoria" />
+    <despesa codigo="44903600"	descricao="Outros Serviços de Terceiros - Pessoa Física" />
+    <despesa codigo="44903700"	descricao="Locação de Mão-de-Obra" />
+    <despesa codigo="44903900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="44904000"	descricao="Serviços de Tecnologia da Informação e Comunicação - Pessoa Jurídica" />
+    <despesa codigo="44904700"	descricao="Obrigações Tributárias e Contributivas" />
+    <despesa codigo="44905100"	descricao="Obras e Instalações" />
+    <despesa codigo="44905200"	descricao="Equipamentos e Material Permanente" />
+    <despesa codigo="44906100"	descricao="Aquisição de Imóveis" />
+    <despesa codigo="44909100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="44909200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="44909300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="44910000"	descricao="Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social" />
+    <despesa codigo="44913900"	descricao="Outros Serviços de Terceiros - Pessoa Jurídica" />
+    <despesa codigo="44914700"	descricao="Obrigações Tributárias e Contributivas" />
+    <despesa codigo="44915100"	descricao="Obras e Instalações" />
+    <despesa codigo="44915200"	descricao="Equipamentos e Material Permanente" />
+    <despesa codigo="44919100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="44920000"	descricao="Aplicação Direta de Recursos Recebidos de Outros Entes da Federação Decorrentes de Delegação ou Descentralização" />
+    <despesa codigo="44930000"	descricao="Aplicação Direta Decorrente de Operação de Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social com Consórcio Público do qual o Ente Participe" />
+    <despesa codigo="44935100"	descricao="Obras e Instalações" />
+    <despesa codigo="44935200"	descricao="Equipamentos e Material Permanente" />
+    <despesa codigo="44940000"	descricao="Aplicação Direta Decorrente de Operação de Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social com Consórcio Público do qual o Ente Não Participe" />
+    <despesa codigo="44945100"	descricao="Obras e Instalações" />
+    <despesa codigo="44945200"	descricao="Equipamentos e Material Permanente" />
+    <despesa codigo="44950000"	descricao="Aplicação Direta à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="44960000"	descricao="Aplicação Direta à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="45000000"	descricao="INVERSÕES FINANCEIRAS" />
+    <despesa codigo="45300000"	descricao="Transferências a Estados e ao Distrito Federal" />
+    <despesa codigo="45304100"	descricao="Contribuições" />
+    <despesa codigo="45304200"	descricao="Auxílios" />
+    <despesa codigo="45310000"	descricao="Transferências a Estados e ao Distrito Federal - Fundo a Fundo" />
+    <despesa codigo="45320000"	descricao="Execução Orçamentária Delegada a Estados e ao Distrito Federal" />
+    <despesa codigo="45350000"	descricao="Transferências Fundo a Fundo aos Estados e DF à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="45360000"	descricao="Transferências Fundo a Fundo aos Estados e DF à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="45400000"	descricao="Transferências a Municípios" />
+    <despesa codigo="45404100"	descricao="Contribuições" />
+    <despesa codigo="45404200"	descricao="Auxílios" />
+    <despesa codigo="45410000"	descricao="Transferências a Municípios Fundo a Fundo" />
+    <despesa codigo="45420000"	descricao="Execução Orçamentária Delegada a Municípios" />
+    <despesa codigo="45450000"	descricao="Transferências fundo a fundo aos municípios à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da lei complementar nº 141, de 2012 - restos a pagar cancelados" />
+    <despesa codigo="45460000"	descricao="Transferências fundo a fundo aos municípios à conta de recursos de que trata o art. 25 da lei complementar nº 141, de 2012 - diferença do mínimo não aplicado em exercícios anteriores" />
+    <despesa codigo="45500000"	descricao="Transferências a Instituições Privadas sem Fins Lucrativos" />
+    <despesa codigo="45600000"	descricao="Transferências a Instituições Privadas com Fins Lucrativos" />
+    <despesa codigo="45670000"	descricao="Execução de Contrato de PPP" />
+    <despesa codigo="45700000"	descricao="Transf. A Instituições Multigovernamentais" />
+    <despesa codigo="45710000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio" />
+    <despesa codigo="45720000"	descricao="Execução Orçamentária Delegada a Consórcios Públicos" />
+    <despesa codigo="45730000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="45740000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="45750000"	descricao="Transferências fundo a fundo aos municípios à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da lei complementar nº 141, de 2012 - restos a pagar cancelados" />
+    <despesa codigo="45760000"	descricao="Transferências fundo a fundo aos municípios à conta de recursos de que trata o art. 25 da lei complementar nº 141, de 2012 - diferença do mínimo não aplicado em exercícios anteriores" />
+    <despesa codigo="45900000"	descricao="Aplicações Diretas" />
+    <despesa codigo="45902700"	descricao="Encargos pela Honra de Avais, Garantias, Seguros e Similares." />
+    <despesa codigo="45906100"	descricao="Aquisição de Imóveis" />
+    <despesa codigo="45906200"	descricao="Aquisição de Produtos para Revenda" />
+    <despesa codigo="45906300"	descricao="Aquisição de Títulos de Crédito" />
+    <despesa codigo="45906400"	descricao="Aquisição de Títulos Representativos de Capital já Integralizado" />
+    <despesa codigo="45906500"	descricao="Constituição ou Aumento de Capital de Empresas" />
+    <despesa codigo="45906600"	descricao="Concessão de Empréstimos e Financiamentos" />
+    <despesa codigo="45906601"	descricao="  Incentivos diretos a contribuintes" />
+    <despesa codigo="45906602"	descricao=" Incentivos via instituição financeira" />
+    <despesa codigo="45906609"	descricao="OUTROS EMPRESTIMOS E FINANCIAMENTOS" />
+    <despesa codigo="45906700"	descricao="Depósitos Compulsórios" />
+    <despesa codigo="45908400"	descricao="Participação em Fundos, Organismos ou Entidades Assemellhadas, Nacionais e Internacionais" />
+    <despesa codigo="45909100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="45909200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="45909300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="45910000"	descricao="Aplicação Direta Decorrente de Operação entre Órgãos, Fundos e Entidades Integrantes dos Orçamentos Fiscal e da Seguridade Social" />
+    <despesa codigo="45914700"	descricao="Obrigações Tributárias e Contributivas" />
+    <despesa codigo="45916100"	descricao="Aquisição de Imóveis" />
+    <despesa codigo="45916200"	descricao="Aquisição de Produtos para Revenda" />
+    <despesa codigo="45916500"	descricao="Constituição ou Aumento de Capital de Empresas" />
+    <despesa codigo="45916600"	descricao="Concessão de Empréstimos e Financiamentos" />
+    <despesa codigo="45918400"	descricao="Participação em Fundos, Organismos ou Entidades Assemellhadas, Nacionais e Internacionais" />
+    <despesa codigo="45919100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="45919200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="45930000"	descricao="Aplicação direta decorrente de operação de órgãos, fundos e entidades integrantes dos OFSS com consórcio público do qual o ente participe" />
+    <despesa codigo="45940000"	descricao="Aplicação direta decorrente de operação de órgãos, fundos e entidades integrantes dos OFSS com consórcio público do qual o ente não participe" />
+    <despesa codigo="45950000"	descricao="Aplicação Direta à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012." />
+    <despesa codigo="45960000"	descricao="Aplicação Direta à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012" />
+    <despesa codigo="46000000"	descricao="AMORTIZAÇÃO DA DÍVIDA" />
+    <despesa codigo="46200000"	descricao="Transferência à União" />
+    <despesa codigo="46220000"	descricao="Execução Orçamentária Delegada À União" />
+    <despesa codigo="46300000"	descricao="Transferência a Estado e ao DF" />
+    <despesa codigo="46400000"	descricao="Transferência a Municípios" />
+    <despesa codigo="46500000"	descricao="Transferência a Instituições Privadas sem fins Lucrativos" />
+    <despesa codigo="46600000"	descricao="Transferência a Instituições Privadas com fins Lucrativos" />
+    <despesa codigo="46710000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio" />
+    <despesa codigo="46720000"	descricao="Execução Orçamentária Delegada a Consórcios Públicos" />
+    <despesa codigo="46730000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012" />
+    <despesa codigo="46740000"	descricao="Transferências a Consórcios Públicos mediante contrato de rateio à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012" />
+    <despesa codigo="46900000"	descricao="Aplicações Diretas" />
+    <despesa codigo="46907100"	descricao="Principal da Dívida Contratual Resgatado" />
+    <despesa codigo="46907200"	descricao="Principal da Dívida Mobiliária Resgatado" />
+    <despesa codigo="46907300"	descricao="Correção Monetária e Cambial da Dívida Contratual Resgatada" />
+    <despesa codigo="46907400"	descricao="Correção Monetária e Cambial da Dívida Mobiliaria Resgatada" />
+    <despesa codigo="46907500"	descricao="Cor. Monet. Dívida Op.Crédito p/ Antecip. da Receita" />
+    <despesa codigo="46907600"	descricao="Principal Corrigido da Dívida Mobiliária Refinanciado" />
+    <despesa codigo="46907601"	descricao="Dívida Mobiliária Interna" />
+    <despesa codigo="46907602"	descricao="Dívida Mobiliária Externa" />
+    <despesa codigo="46907700"	descricao="Principal Corrigido da Dívida Contratual Refinanciado" />
+    <despesa codigo="46907701"	descricao="Dívida Contratual Interna" />
+    <despesa codigo="46907702"	descricao="Dívida Contratual Externa" />
+    <despesa codigo="46909100"	descricao="Sentenças Judiciais" />
+    <despesa codigo="46909200"	descricao="Despesas de Exercícios Anteriores" />
+    <despesa codigo="46909300"	descricao="Indenizações e Restituições" />
+    <despesa codigo="46910000"	descricao="Despesas com Amortização da Dívida realizados entre Órgãos, Fundo e Entidades integrantes do Orçamento Fiscal e Seguridade Social" />
+    <despesa codigo="46930000"	descricao="Aplicação direta decorrente de operação de órgãos, fundos e entidades integrantes dos orçamentos fiscal e da seguridade social com consórcio público do qual o ente participe" />
+    <despesa codigo="46940000"	descricao="Aplicação direta decorrente de operação de órgãos, fundos e entidades integrantes dos orçamentos fiscal e da seguridade social com consórcio público do qual o ente não participe" />
+    <despesa codigo="46950000"	descricao="Aplicação Direta à conta de recursos de que tratam os §§ 1º e 2º do art. 24 da Lei Complementar nº 141, de 2012" />
+    <despesa codigo="46960000"	descricao="Aplicação Direta à conta de recursos de que trata o art. 25 da Lei Complementar nº 141, de 2012" />
+    <despesa codigo="99999999"	descricao="Reservas de Contingência/Reserva RPPS " />
+</despesas>

@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('../fonts/DejaVuSans.ttf')  format('truetype');
+}
+
+.topbar {
+    display:flex;
+    flex-direction:row;
+    background-image: -webkit-linear-gradient(to bottom, #FFF, #EFEFEF 50%);
+    background-image:    -moz-linear-gradient(to bottom, #FFF, #EFEFEF 50%);
+    background-image:         linear-gradient(to bottom, #FFF, #EFEFEF 50%);
+    width: 100%;
+    box-shadow: 0px 0px 3px -1px #000;
+    font-family: "DejaVu Sans";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.topbar::before,
+.topbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.topbar .user-nav .user-nav-item {
+    position: relative;
+    float: left;
+    height: 29px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.topbar .user-nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.topbar .user-nav .user .user-name,
+.topbar .user-nav .user .user-picture {
+    float: left;
+    margin: 2px 0;
+}
+
+.topbar .user-nav .user .user-name {
+    line-height: 2;
+    font-size: 14px;
+    color: #426c8c;
+}
+
+/** DROPDOWN CSS **/
+
+.dropdown-toggle {
+    display: block;
+    height: 100%;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    border: 1px solid #AAA;
+    padding: 5px 3px;
+    font-size: 14px;
+    z-index: 101;
+    margin-top: 13px;
+    box-shadow: 0px 1px 5px -1px #000;
+}
+
+.dropdown-menu .notifications {
+    min-width: 300px;
+    max-width: 610px;
+    max-height: 600px;
+    overflow: auto;
+    background-color: #FFF;
+}
+
+.dropdown-menu .loader {
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    justify-content: center;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dropdown-menu .loader .loader-wheel {
+    animation: spin 1s infinite linear;
+    border-left: 1px solid #426c8c;
+    border-radius: 100%;
+    height: 20px;
+    margin: 5px;
+    width: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dropdown-menu::before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 5px;
+    border-bottom: 8px solid #EFEFEF;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+
+.dropdown-menu::after{
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: 4px;
+    border-bottom: 9px solid #AAA;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    z-index: -1;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+}
+
+.dropdown-menu li {
+    min-height: 25px;
+    line-height: 25px;
+    padding: 1px 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #545454;
+}
+
+.dropdown-menu li a {
+    color: #426c8c;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-menu li:hover {
+    background-color: #648ead;
+    color: white;
+}
+
+.dropdown-menu li:hover a {
+    color: white;
+}
+
+.dropdown-menu .notifications li:hover {
+    background-color: #4f7c9e33;
+}
+
+.dropdown-menu li.dropdown-item-no-fx:hover {
+    background-color: inherit;
+    color: #545454;
+}
+
+.dropdown-menu li.dropdown-item-no-fx:hover a {
+    color: #426c8c;
+}
+
+.dropdown-menu .notifications li.notification {
+    position: relative;
+    width: 98%;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1;
+    white-space: normal;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C7C7C7;
+    color: #000;
+}
+
+.dropdown-menu .notifications .btn-notification {
+    cursor: pointer;
+    background-color: #4f7c9e;
+    color: rgb(242, 242, 242);
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.dropdown-menu .notifications li.notification:last-child {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-bottom: 0;
+}
+
+.dropdown-menu .notifications li.notification .title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu .notifications li.notification .title span {
+    width: 10px;
+    line-height: 10px;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 2px;
+    border-radius: 10px;
+    color: #545454;
+    background-color: #EFEFEF;
+}
+
+.dropdown-menu .notifications li.notication div {
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/** END DROPDOWN CSS */
+
+.topbar .user-nav .settings .icon-config {
+    display: block;
+    cursor: pointer;
+    background: url('../img/topbar/user-settings.png') no-repeat center center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    height: 25px;
+    width: 25px;
+}
+
+.topbar .user-nav .settings .icon-notification {
+    display: block;
+    cursor: pointer;
+    background: url('../img/topbar/user-notification.png') no-repeat center center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    height: 25px;
+    width: 25px;
+}
+
+.topbar .user-nav .settings .icon-document {
+    display: block;
+    cursor: pointer;
+    background: url('../img/topbar/document-search.png') no-repeat center center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    height: 25px;
+    width: 25px;
+}
+
+.topbar .user-nav .settings .notify {
+    background: red;
+    position:absolute;
+    top: 0px;
+    right: -4px;
+    height : 13px;
+    min-width : 13px;
+    border-radius:5px;
+    line-height: 13px;
+    z-index: 1;
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 3px #222;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.profile {
+
+}
+
+.profile .user-info,
+.profile .system-info {
+    border-bottom: 1px solid #ccc;
+}
+
+.profile .user-info {
+    height: 90px;
+    padding-bottom: 10px;
+}
+
+.profile .user-info .name,
+.profile .user-info .picture {
+    display: block;
+    height: 100%;
+}
+
+.profile .user-info .name {
+    float: left;
+    width: -moz-calc( 100% - 70px );
+    width: calc( 100% - 70px );
+    position: relative;
+}
+
+.profile .user-info .name span {
+    position: absolute;
+    bottom: 5px;
+    white-space: normal;
+    line-height: 16px;
+    left: 5px;
+}
+
+.profile .user-info .picture {
+    border-radius: 100%;
+    float: left;
+    max-width: 70px;
+}
+
+.profile .user-info .picture img {
+    height: 80px;
+    width: 60px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px -5px #000;
+    border: 2px solid #CCC;
+    padding: 3px;
+}
+
+
+.card-favorito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25px;
+    background: #cbcbcb;
+    border-radius: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    gap: 4px;
+}
+
+.favoritos-bar {
+    display:flex;
+    flex-grow: 1;
+    flex-direction:row;
+    align-items: center;
+    height: 40px;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+.cards-all-favoritos {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cards-all-favoritos {
+    display: flex;
+    gap: 5px;
+}
+
+.card-favorito:hover {
+    cursor:pointer;
+    background: #e3e2e2;
+}
+
+.truncate {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px
+}
+
+.instituicao-icone-barra-favoritos {
+    content: "";
+    width: 19px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url('../img/menu/sprite-icons.png');
+}
+
+.icone-manutencao-favoritos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.icone-manutencao-favoritos:hover {
+    cursor:pointer;
+}
+
+.icone-refresh-favoritos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-refresh-favoritos:hover {
+    cursor:pointer;
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.icone-refresh-favoritos.rotating {
+    animation: rotate360 1s linear infinite;
+}

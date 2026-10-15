@@ -1,0 +1,63 @@
+#! /bin/sh
+# postgresql	This is the init script for starting up the PostgreSQL
+#		server
+#
+# chkconfig: 345 85 15
+# description: Starts and stops the PostgreSQL backend daemon that handles \
+#	       all database requests.
+# description(pt_BR): Inicializa/pára o servidor PostgreSQL que trata todas as \
+#              requisições ao banco de dados.
+# description(es): Inicializa/detiene el servidor PostgreSQL que trata todas las \
+#               solicitudes del banco de datos.
+# processname: postmaster
+# pidfile: /var/run/postmaster.pid
+# 
+
+# Source function library.
+. /etc/rc.d/init.d/functions
+
+# Get config.
+. /etc/sysconfig/network
+
+# Check that networking is up.
+# Pretty much need it for postmaster.
+[ ${NETWORKING} = "no" ] && exit 0
+
+if [ ! -f /usr/bin/servidor ] 
+then
+  echo "/usr/bin/servidor nao existe" 
+  exit 0
+fi
+
+
+case "$1" in
+  start)
+	gprintf "Starting %s server: " "autenticadora"
+	daemon --check servidor --user root "/usr/bin/servidor"
+	sleep 1
+	pid=`pidof servidor`
+	touch /var/lock/subsys/servidor
+	echo $pid > /var/run/servidor.pid
+	echo
+	;;
+  stop)
+	gprintf "Stopping %s server: " "autenticadora"
+	killproc servidor
+	sleep 2
+	rm -f /var/run/servidor.pid
+	rm -f /var/lock/subsys/servidor
+	echo
+	;;
+  status)
+	status servidor
+	;;
+  restart)
+	$0 stop
+	$0 start
+	;;
+  *)
+	gprintf "Usage: %s {start|stop|status|restart}\n" "autenticadora"
+	exit 1
+esac
+
+exit 0

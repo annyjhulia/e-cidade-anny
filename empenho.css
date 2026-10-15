@@ -1,0 +1,20 @@
+.table_header  {font-weight:bold;text-align:center;
+       padding:1px;
+			 border-bottom:2px outset white;
+			 border-right:1px outset white;           
+       background-color:#EEEFF2;        
+	
+	}
+.linhagrid{ border-colappse:collapse;
+            border-right:1px inset black;
+            border-bottom:1px inset black;
+            cursor:normal;
+            text-align:center;
+ }
+.marcado{ background-color:#EFEFEF}
+.normal{background-color:#FFFFFF}
+.tr_tab{
+  background-color:white;
+  font-size: 8px;
+  height : 8px;
+}
